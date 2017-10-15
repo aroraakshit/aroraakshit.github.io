@@ -8,7 +8,7 @@ layout: compress
 <!--[if gt IE 8]><!--> <html class="no-js"><!--<![endif]-->
 <script>
     function PlaySound() {
-        var snd = new Audio("assets/sound/pronunciation.mp3");
+        var snd = new Audio("{{ site.url }}/assets/sound/pronunciation.mp3");
         snd.play();
     }
 </script>
@@ -69,10 +69,13 @@ body {
                          About
                          </a>
                          <a class="btn zoombtn" href="{{ site.url }}/posts">
-                         Posts
+                         Blog
                          </a>
                          <a class="btn zoombtn" href="{{ site.url }}/projects">
                          Projects
+                         </a>
+                         <a class="btn zoombtn" href="{{ site.url }}/timeline">
+                         Timeline
                          </a>
                          <a class="btn zoombtn" href="{{ site.url }}/akshit_cv.pdf">
                          Resume
