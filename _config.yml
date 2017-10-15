@@ -26,7 +26,7 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   taylantatli
+disqus_shortname:   akshitarora
 
 # Social
 # if you don't have any of social below, comment the line.
@@ -37,26 +37,27 @@ disqus_shortname:   taylantatli
   #ad-client:
   #ad-slot:
 #bing-verify:
-#email:
-twitter:            username
-facebook:           username
-github-url:         username
+email:              akshit.arora@colorado.edu
+twitter:            AkshitArora1995
+facebook:           AkshitArora1995
+github-url:         aroraakshit
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-#linkedin:          username
+linkedin:           akshitarora1995
 #xing:              username
-instagram:          username
+instagram:          akshit1995
 #lastfm:            username
-#tumblr:            username
+tumblr:            aarora
 #medium:            '@username'
 #pinterest:         username
 #foursquare:        username
-steam:              username
+#steam:              username
 #dribbble:          username
 #youtube:           username
 #youtube-channel:   channel
 #soundcloud:        username
 #weibo:             username
-#flickr:            username
+flickr:             akshitarora
+a500px:              akshitarora
 #codepen:           username
 #keybase:           username
 #xmpp:              username@server.com
