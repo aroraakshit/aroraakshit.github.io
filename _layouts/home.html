@@ -14,6 +14,36 @@ layout: compress
 </script>
 <head>
     {% include head.html %}
+    <style type="text/css">
+    @import url(https://fonts.googleapis.com/css?family=Karla);
+
+body {
+  font-family: "Karla", sans-serif;
+   text-align: center;
+  background-color: #202020;
+  color: #f9f9f9;
+}
+
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.cursor {
+    animation: blink 0.7s infinite;
+}
+</style>
 </head>
 <body>
     {% include nav.html %}
@@ -23,7 +53,9 @@ layout: compress
             <div class="row">
                     <img src="{{ site.logo }}" class="img-circle animated">
                     <h3 class="title">
-                        <p style="font-size:1.2rem;font-weight:300"><b>{{ site.title }}</b></p>
+                        <div class="typing-animation">
+                          <span id="quote"></span>
+                        </div>
                     </h3>
                     <p style="font-style: italic;font-size: 12px">Here's how it's pronounced: <button onclick="PlaySound()" style="background-color: #000000;border: none;color: white;padding: 2px 2px;text-align: center;text-decoration: none;display: inline-block;font-size: 12px;"><i class="fa fa-volume-up"></i></button></p>
                     <hr class="hr-line">
@@ -47,5 +79,16 @@ layout: compress
         </div>
     </header>
     {% include scripts.html %}
+    <script type="text/javascript">
+        $(function(){
+      $("#quote").typed({
+        strings: ["Hi! I am Akshit Arora", "नमस्ते । मेरा नाम अक्षित अरोड़ा है ।", "ਸਤਿ ਸ਼੍ਰੀ ਅਕਾਲ । ਮੇਰਾ ਨਾਂ ਅਕ੍ਸ਼ਿਤ ਅਰੋੜਾ ਹੈ ।"],
+        typeSpeed: 50,
+        backSpeed: 1,
+        loop: true,
+        shuffle: true
+      });
+  });
+    </script>
 </body>
 </html>
