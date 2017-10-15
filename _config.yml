@@ -1,7 +1,7 @@
 # Site
 title:              अक्षित अरोड़ा | Akshit Arora | ਅਕ੍ਸ਼ਿਤ ਅਰੋੜਾ
-bio:                'Minimal, one column jekyll theme.'
-description:        "Moon is a minimal, one column jekyll theme for your blog."
+bio:                'Graduate Student at CUBoulder<br>Passionate about Artificial Intelligence, Deep Learning and Photography!<br><a href="mailto:akshit.arora@colorado.edu">akshit[dot]arora[at]colorado[dot]edu</a>'
+description:        "Artificial Intelligence, Deep Learning and Photography" #will be changed 
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
@@ -37,7 +37,7 @@ disqus_shortname:   akshitarora
   #ad-client:
   #ad-slot:
 #bing-verify:
-email:              akshit.arora@colorado.edu
+#email:              akshit.arora@colorado.edu
 twitter:            AkshitArora1995
 facebook:           AkshitArora1995
 github-url:         aroraakshit

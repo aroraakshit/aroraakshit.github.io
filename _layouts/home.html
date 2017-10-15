@@ -6,6 +6,12 @@ layout: compress
 <!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
 <!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9"><![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"><!--<![endif]-->
+<script>
+    function PlaySound() {
+        var snd = new Audio("assets/sound/pronunciation.mp3");
+        snd.play();
+    }
+</script>
 <head>
     {% include head.html %}
 </head>
@@ -20,14 +26,13 @@ layout: compress
                     </a>
                     <h3 class="title">
                         <a class="zoombtn" href="{{ site.url }}">
-                        	<p style="font-size:1.2rem;font-weight:300">{{ site.title }}</p>
+                        	<p style="font-size:1.2rem;font-weight:300"><b>{{ site.title }}</b></p>
 			            </a>
+                        <button onclick="PlaySound()" style="background-color: #000000; /* Green */border: none;color: white;padding: 3px 6px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;"><i class="fa fa-volume-up"></i></button>
                     </h3>
                     <hr class="hr-line">
                     <h3 class="title">
-                        <a href="{{ site.url }}">
-                        	<p style="font-size:1rem;font-weight:300">{{ site.bio }}</p>
-			            </a>
+                    	<p style="font-size:1rem;font-weight:300">{{ site.bio }}</p>
                     </h3>
                     {% include social-links.html %}
                   <hr class="hr-line">
