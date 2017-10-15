@@ -21,15 +21,11 @@ layout: compress
     <header class="header flex" role="banner">
         <div class="container animated fadeIn">
             <div class="row">
-                    <a href="{{ site.url }}">
-                        <img src="{{ site.logo }}" class="img-circle zoombtn animated rotateIn">
-                    </a>
+                    <img src="{{ site.logo }}" class="img-circle animated">
                     <h3 class="title">
-                        <a class="zoombtn" href="{{ site.url }}">
-                        	<p style="font-size:1.2rem;font-weight:300"><b>{{ site.title }}</b></p>
-			            </a>
-                        <button onclick="PlaySound()" style="background-color: #000000; /* Green */border: none;color: white;padding: 3px 6px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;"><i class="fa fa-volume-up"></i></button>
+                        <p style="font-size:1.2rem;font-weight:300"><b>{{ site.title }}</b></p>
                     </h3>
+                    <p style="font-style: italic;font-size: 12px">Here's how it's pronounced: <button onclick="PlaySound()" style="background-color: #000000;border: none;color: white;padding: 2px 2px;text-align: center;text-decoration: none;display: inline-block;font-size: 12px;"><i class="fa fa-volume-up"></i></button></p>
                     <hr class="hr-line">
                     <h3 class="title">
                     	<p style="font-size:1rem;font-weight:300">{{ site.bio }}</p>
