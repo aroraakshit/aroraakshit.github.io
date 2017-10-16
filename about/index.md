@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Me
+title: Hi, I am Akshit!
 tags: [about, Jekyll, theme, moon]
 date: 2016-03-21
 comments: false
@@ -10,8 +10,8 @@ comments: false
 	<tr >
 		<td style="vertical-align:top;text-align:center;" >
 			<img src="{{ site.url }}/akshit.JPG" width="1000" style="float:right">
-			Akshit Arora<br>
 			अक्षित अरोड़ा <br>
+			Akshit Arora<br>
 			ਅਕ੍ਸ਼ਿਤ ਅਰੋੜਾ <br>
 			<button onclick="var snd = new Audio('{{ site.url }}/assets/sound/pronunciation.mp3');snd.play();" style="background-color: #000000;border: none;color: white;padding: 1px 2px;text-align: center;text-decoration: none;display: inline-block;font-size: 12px;"><i class="fa fa-volume-up"></i></button><br>
 			<font size="-1">("AHK-shiht Ah-RO-duh")</font><br>
@@ -20,7 +20,6 @@ comments: false
 			<a href="https://twitter.com/AkshitArora1995">Twitter</a><br>
 		</td>
 		<td>
-			<h1>Hi, I am Akshit!</h1>
 			<p align="justify">
 				Currently, I am a graduate student at <a href="http://www.colorado.edu/">University of Colorado, Boulder</a>. My main research interests are Deep Learning, Data Science, Artificial Intelligence and Natural Language Processing. I did my bachelors from <a href="http://www.thapar.edu/">Thapar University, Patiala, India</a>.<br>
 
