@@ -12,12 +12,11 @@ comments: false
 			<img src="{{ site.url }}/akshit.JPG" width="1000" style="float:right">
 			अक्षित अरोड़ा <br>
 			Akshit Arora<br>
-			ਅਕ੍ਸ਼ਿਤ ਅਰੋੜਾ <br>
-			<button onclick="var snd = new Audio('{{ site.url }}/assets/sound/pronunciation.mp3');snd.play();" style="background-color: #000000;border: none;color: white;padding: 1px 2px;text-align: center;text-decoration: none;display: inline-block;font-size: 12px;"><i class="fa fa-volume-up"></i></button><br>
-			<font size="-1">("AHK-shiht Ah-RO-duh")</font><br>
-			<a href="/akshit_cv.pdf">Resume</a><br>
+			ਅਕ੍ਸ਼ਿਤ ਅਰੋੜਾ <button onclick="var snd = new Audio('{{ site.url }}/assets/sound/pronunciation.mp3');snd.play();" style="background-color: #000000;border: none;color: white;padding: 1px 2px;text-align: center;text-decoration: none;display: inline-block;font-size: 12px;"><i class="fa fa-volume-up"></i></button><br>
+			<font size="-1">("AHK-shiht Ah-RO-duh")</font>
+			<!--<a href="/akshit_cv.pdf">Resume</a><br>
 			<a href="https://www.linkedin.com/in/akshitarora1995/">LinkedIN</a><br>
-			<a href="https://twitter.com/AkshitArora1995">Twitter</a><br>
+			<a href="https://twitter.com/AkshitArora1995">Twitter</a><br>-->
 		</td>
 		<td>
 			<p align="justify">
