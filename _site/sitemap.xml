@@ -54,4 +54,16 @@
 <loc>http://localhost:4000/akshit_cv.pdf</loc>
 <lastmod>2017-10-15T21:07:36-06:00</lastmod>
 </url>
+<url>
+<loc>http://localhost:4000/hobbies/index.html</loc>
+<lastmod>2017-10-28T13:10:07-06:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/photobooks/index.html</loc>
+<lastmod>2017-10-28T13:10:17-06:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/timeline/index.html</loc>
+<lastmod>2017-10-28T13:09:28-06:00</lastmod>
+</url>
 </urlset>

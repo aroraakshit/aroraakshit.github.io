@@ -60,9 +60,8 @@ body {
                     <h3 class="title">
                     	<p style="font-size:1rem;font-weight:300">{{ site.bio }}</p>
                     </h3>
-                    {% include social-links.html %}
-                  <hr class="hr-line">
-                  <h3 class="title">
+                    <hr class="hr-line">
+                    <h3 class="title">
                     <a class="btn zoombtn" href="{{ site.url }}/about">
                     About
                     </a>
@@ -85,7 +84,9 @@ body {
                     Hobbies <!--personal study, get motivated, lists, quotes and others!-->
                     </a>
                  </h3>
+                  {% include social-links.html %}
             </div>
+            <center><p style="color: black">© Akshit Arora 2017 with help from <a href="https://jekyllrb.com/">Jekyll</a> & <a href="http://www.mattboldt.com/demos/typed-js/">TypedJS</a>.</p></center>
         </div>
     </header>
     {% include scripts.html %}
