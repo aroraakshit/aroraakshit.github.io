@@ -92,14 +92,14 @@ body {
     {% include scripts.html %}
     <script type="text/javascript">
         $(function(){
-      $("#quote").typed({
-        strings: ["Hi! I am Akshit Arora", "नमस्ते । मेरा नाम अक्षित अरोड़ा है ।", "ਸਤਿ ਸ਼੍ਰੀ ਅਕਾਲ । ਮੇਰਾ ਨਾਂ ਅਕ੍ਸ਼ਿਤ ਅਰੋੜਾ ਹੈ ।"],
-        typeSpeed: 50,
-        backSpeed: 1,
-        loop: true,
-        shuffle: true
-      });
-  });
+          $("#quote").typed({
+            strings: ["Hi! I am Akshit Arora<br>नमस्ते । मेरा नाम अक्षित अरोड़ा है ।<br>ਸਤਿ ਸ਼੍ਰੀ ਅਕਾਲ । ਮੇਰਾ ਨਾਂ ਅਕ੍ਸ਼ਿਤ ਅਰੋੜਾ ਹੈ ।"],
+            typeSpeed: 50,
+            backSpeed: 1,
+            loop: false,
+            shuffle: true
+          });
+        });
     </script>
 </body>
 </html>
