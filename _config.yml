@@ -4,8 +4,8 @@ email: akshit.arora@colorado.edu
 description: "Artificial Intelligence, Deep Learning and Photography"
 baseurl: ""
 url: "https://aroraakshit.github.io/"
-title_description: "I am a graduate student in Computer Science at CUBoulder<br>Interested in Artificial Intelligence, Deep Learning and Photography!<br>akshit [dot] arora [at] colorado [dot] edu"
-title_image: "https://www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm"
+title_description: "Graduate student at the <a href=\"https://www.colorado.edu/\">University of Colorado Boulder</a><br>Currently interested in Deep Learning, Cognitive Science and Artificial Intelligence.<br>Learn more about me <a href=\"https://akshitarora.github.io/about/\">here</a>.<br>Reach me at: <a href=\"mailto:akshit.arora@colorado.edu\">akshit [dot] arora [at] colorado [dot] edu</a>"
+title_image: "akshit.JPG"
 google_analytics: "UA-109066326-1"
 disqus_account: akshitarora
 github_repository: https://github.com/aroraakshit/carte-noire
@@ -21,10 +21,10 @@ linkedin_link: https://www.linkedin.com/in/akshitarora1995/
 google_plus_link:
 stackoverflow_link: 
 xing_link:
-facebook_link: https://www.facebook.com/AkshitArora1995
+facebook_link: 
 
 # Footer
-footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a> and modified by <a href=\"https://twitter.com/AkshitArora1995\"></a>"
+footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a> and modified by <a href=\"https://twitter.com/AkshitArora1995\">Akshit Arora</a>"
 footer_right: "&lt;/&gt; on <a href=\"https://github.com/aroraakshit/carte-noire\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
 
 # Build settings
