@@ -1,77 +1,38 @@
-# Site
-title:              अक्षित अरोड़ा | Akshit Arora | ਅਕ੍ਸ਼ਿਤ ਅਰੋੜਾ
-bio:                'I am a graduate student in Computer Science at CUBoulder<br>Interested in Artificial Intelligence, Deep Learning and Photography!<br><a href="mailto:akshit.arora@colorado.edu">akshit [dot] arora [at] colorado [dot] edu</a>'
-description:        "Artificial Intelligence, Deep Learning and Photography" #will be changed 
-reading_time:       true
-words_per_minute:   200
-logo:               'assets/img/logo.png'
-background:         'assets/img/placeholder-big.jpg'
-tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
-locale:             en_US
-url:                https://aroraakshit.github.io/
+# Site settings
+title: "Akshit Arora"
+email: akshit.arora@colorado.edu
+description: "Artificial Intelligence, Deep Learning and Photography"
+baseurl: ""
+url: "https://akshitarora.github.io/"
+title_description: "I am a graduate student in Computer Science at CUBoulder<br>Interested in Artificial Intelligence, Deep Learning and Photography!<br>akshit [dot] arora [at] colorado [dot] edu"
+title_image: "https://www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm"
+google_analytics: "UA-109066326-1"
+disqus_account: akshitarora
+github_repository: https://github.com/aroraakshit/carte-noire
+addthis_id: ra-59f92e11f7baa2ae 
+post_limit: 5
 
-# Jekyll
-permalink:          /:title/
-markdown:           kramdown
-highlighter:        rouge
+# Social usernames/URLs
+twitter_username: AkshitArora
+github_username:  aroraakshit
+instagram_username: akshit1995
+reddit_username: 
+linkedin_link: https://www.linkedin.com/in/akshitarora1995/
+google_plus_link:
+stackoverflow_link: 
+xing_link:
+facebook_link: https://www.facebook.com/AkshitArora1995
+
+# Footer
+footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a> and modified by <a href=\"https://twitter.com/AkshitArora1995\"></a>"
+footer_right: "&lt;/&gt; on <a href=\"https://github.com/aroraakshit/carte-noire\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
+
+# Build settings
+markdown: kramdown
+
 kramdown:
-  auto_ids:         true
-  footnote_nr:      1
-  entity_output:    as_char
-  toc_levels:       1..6
-  enable_coderay:   false
-mathjax:            true
-sass:
-  sass_dir:         _sass
-  style:            compressed
+  input: GFM
+  syntax_highlighter: rouge
 
-# Comments
-disqus_shortname:   https-aroraakshit-github-io
-
-# Social
-# if you don't have any of social below, comment the line.
-#google:
-  #plus:            #username
-  #analytics:
-  #verify:
-  #ad-client:
-  #ad-slot:
-#bing-verify:
-#email:              akshit.arora@colorado.edu
-twitter:            AkshitArora1995
-facebook:           AkshitArora1995
-github-url:         aroraakshit
-#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-linkedin:           akshitarora1995
-#xing:              username
-instagram:          akshit1995
-#lastfm:            username
-tumblr:            aarora
-#medium:            '@username'
-#pinterest:         username
-#foursquare:        username
-#steam:              username
-#dribbble:          username
-#youtube:           username
-#youtube-channel:   channel
-#soundcloud:        username
-#weibo:             username
-flickr:             akshitarora
-a500px:              akshitarora
-#codepen:           username
-#keybase:           username
-#xmpp:              username@server.com
-#hackernews:        username
-
-# Gems
-plugins:
-  - jekyll-mentions
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-gist
-
-jekyll-mentions:
-    base_url: https://github.com
-
-# Exclude list
-exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
+permalink: pretty
+exclude: [vendor]
