@@ -4,16 +4,17 @@ email: akshit.arora@colorado.edu
 description: "Artificial Intelligence, Deep Learning and Photography"
 baseurl: ""
 url: "https://aroraakshit.github.io/"
-title_description: "Graduate student at the <a href=\"https://www.colorado.edu/\">University of Colorado Boulder</a><br>Currently interested in Deep Learning, Cognitive Science and Artificial Intelligence.<br><a href=\"https://akshitarora.github.io/about/\">About Me</a> | <a href=\"akshit_cv.pdf\">Resume</a><br>Reach me at: <a href=\"mailto:akshit.arora@colorado.edu\">akshit [dot] arora [at] colorado [dot] edu</a>"
+title_description: "Graduate student at the <a href=\"https://www.colorado.edu/\">University of Colorado Boulder</a><br>Currently interested in Deep Learning, Cognitive Science and Artificial Intelligence.<br><a href=\"https://akshitarora.github.io/about/\">About Me</a> | <a href=\"akshit_cv.pdf\">Resume</a> | <a href=\"mailto:akshit.arora@colorado.edu\">Email Me</a>"
 title_image: "akshit.JPG"
 google_analytics: "UA-109066326-1"
 disqus_account: akshitarora-github-io
 github_repository: https://github.com/aroraakshit/carte-noire
 addthis_id: ra-59f92e11f7baa2ae
 post_limit: 5
+author_name: "Akshit Arora"
 
 # Social usernames/URLs
-twitter_username: AkshitArora
+twitter_username: AkshitArora1995
 github_username:  aroraakshit
 instagram_username: akshit1995
 reddit_username: 
