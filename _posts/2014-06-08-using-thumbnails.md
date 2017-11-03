@@ -5,6 +5,7 @@ date:       2014-06-08 12:32:18
 summary:    Using thumbnails in your Carte Noire articles.
 categories: jekyll
 thumbnail: jekyll
+comments: true
 tags:
  - thumbnails
  - carte noire
