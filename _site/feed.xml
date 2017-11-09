@@ -5,72 +5,64 @@
     <description>Artificial Intelligence, Deep Learning and Photography</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 02 Nov 2017 20:07:06 -0600</pubDate>
-    <lastBuildDate>Thu, 02 Nov 2017 20:07:06 -0600</lastBuildDate>
+    <pubDate>Thu, 09 Nov 2017 13:57:46 -0700</pubDate>
+    <lastBuildDate>Thu, 09 Nov 2017 13:57:46 -0700</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
     
       <item>
-        <title>Exploring Augmented Reality</title>
-        <description>&lt;p&gt;Carte Noire is designed to start each article with an all-white image as a
-thumbnail. These are created by adding a &lt;code class=&quot;highlighter-rouge&quot;&gt;thumbnail&lt;/code&gt; parameter to the article’s
-&lt;a href=&quot;http://jekyllrb.com/docs/frontmatter/&quot;&gt;YAML frontmatter&lt;/a&gt;. This thumbnail parameter is processed in one of two ways,
-images specified in &lt;code class=&quot;highlighter-rouge&quot;&gt;_data/thumbnails.yml&lt;/code&gt; or using &lt;a href=&quot;http://fortawesome.github.io/Font-Awesome/&quot;&gt;Font Awesome&lt;/a&gt;.&lt;/p&gt;
+        <title>The Neural Conversational Model</title>
+        <description>&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
+&lt;p&gt;The paper talks about an end-to-end framework based on using neural networks for mapping input sequences (statements) to output sequences (responses). This approach differs from conventional conversational systems because it lacks domain knowledge, can be trained end-to-end and requires fewer hand-crafted rules. The model predicts the next sentence given the previous sentence / sentences in a conversation. 
+&lt;img src=&quot;/img/1.PNG&quot; alt=&quot;seq2seq model&quot; /&gt;
+A sequence to sequence, called &lt;a href=&quot;https://arxiv.org/abs/1409.3215&quot;&gt;seq2seq&lt;/a&gt; framework which takes input of one token at one timestamp and outputs one token at one timestamp. The framework is established using RNNs. The training phase involves learning the given true output through back propagation. In language tasks the objective is to decrease the perplexity and in this task as well the model is trained to maximize the cross entropy of the correct sequence using the context.&lt;/p&gt;
 
-&lt;h2 id=&quot;images&quot;&gt;Images&lt;/h2&gt;
+&lt;h2 id=&quot;datasets-used&quot;&gt;Datasets Used&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;IT Helpdesk Troubleshooting Dataset (Training set: 30M tokens, validation set: 3M tokens)&lt;/li&gt;
+  &lt;li&gt;OpenSubtitles Dataset (Tiedermann, 2009). (Training set: 923M tokens, validation set: 395M tokens)&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;To use your own custom images as a thumbnail you must upload them to a web available
-location (I use &lt;a href=&quot;http://imgur.com/&quot;&gt;Imgur&lt;/a&gt;) and then you need to add the url to &lt;code class=&quot;highlighter-rouge&quot;&gt;_data/thumbnail.yml&lt;/code&gt;
-with an associated keyword.&lt;/p&gt;
+&lt;h2 id=&quot;advantages&quot;&gt;Advantages:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Since we are using neural networks, it is easy to use the same model for machine translation, question/answering and conversations without major changes in architecture.&lt;/li&gt;
+  &lt;li&gt;Can generate simple and basic conversations using very few hand-crafted rules unlike conventional bots.&lt;/li&gt;
+  &lt;li&gt;Able to extract knowledge from domain specific dataset (IT Helpdesk, finding solution to a technical problem) and from a large, noisy and general domain dataset of movie subtitles (common sense reasoning).&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jekyll: &quot;http://i.imgur.com/aRQcGSi.png&quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;disadvantages&quot;&gt;Disadvantages:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Unlike easier tasks like Translation, this model does not completely solve the problem of modelling dialogue because:&lt;/li&gt;
+  &lt;li&gt;The objective function being optimized does not capture the actual objective of human communication.&lt;/li&gt;
+  &lt;li&gt;Since it is a purely unsupervised model, it is unable to ensure consistency and general world knowledge.&lt;/li&gt;
+  &lt;li&gt;Lack of personality. Hence cannot pass the Turing test. A paper by Microsoft talks about this limitation and introduces persona-based neural conversational models. (Find it &lt;a href=&quot;https://arxiv.org/abs/1603.06155&quot;&gt;here&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;No performance measure to calculate quality of models except manual inspection and perplexity.&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;You then add a &lt;code class=&quot;highlighter-rouge&quot;&gt;thumbnail&lt;/code&gt; option to the article’s frontmatter and provide the keyword
-for that thumbnail.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;thumbnail: jekyll
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;This allows you to re-use thumbnails across multiple articles without having to
-specify the url each time.&lt;/p&gt;
-
-&lt;h2 id=&quot;font-awesome&quot;&gt;Font Awesome&lt;/h2&gt;
-
-&lt;p&gt;If jekyll can’t find a corresponding image in your &lt;code class=&quot;highlighter-rouge&quot;&gt;thumbnail.yml&lt;/code&gt; file then it
-will assume you want to use a Font Awesome icon instead. You can find the full
-list of Font Awesome icons &lt;a href=&quot;http://fortawesome.github.io/Font-Awesome/icons/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;So for example if your article is about android and you want to use the &lt;a href=&quot;http://fortawesome.github.io/Font-Awesome/icon/android/&quot;&gt;android icon&lt;/a&gt;
-from font awesome you can just specify the following in your frontmatter.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;thumbnail: android
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Then in the future if you decide you want to use your own android icon you can just
-add it to &lt;code class=&quot;highlighter-rouge&quot;&gt;_data/thumbnails.yml&lt;/code&gt; which will override it for all articles using
-the android thumbnail.&lt;/p&gt;
+&lt;h2 id=&quot;related-works&quot;&gt;Related Works:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://neuralconvo.huggingface.co/&quot;&gt;NeuralConvo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://sidgan.me/technical/2016/05/24/the_neural_conversation_model&quot;&gt;The Neural Conversational Model by Siddha Ganju&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 </description>
-        <pubDate>Thu, 08 Jun 2017 06:32:18 -0600</pubDate>
-        <link>http://localhost:4000/augmentedreality/2017/06/08/Exploring-Augmented-Reality/</link>
-        <guid isPermaLink="true">http://localhost:4000/augmentedreality/2017/06/08/Exploring-Augmented-Reality/</guid>
+        <pubDate>Thu, 09 Nov 2017 06:25:18 -0700</pubDate>
+        <link>http://localhost:4000/artificialintelligence/2017/11/09/neural-conversational-model/</link>
+        <guid isPermaLink="true">http://localhost:4000/artificialintelligence/2017/11/09/neural-conversational-model/</guid>
         
-        <category>augmented reality</category>
+        <category>ai</category>
         
-        <category>vuforia</category>
+        <category>ml</category>
         
-        <category>wikitude</category>
+        <category>nlp</category>
         
-        <category>ARToolkit</category>
+        <category>brain</category>
         
-        <category>KudanAR</category>
+        <category>deep learning</category>
         
-        <category>iit mandi</category>
-        
-        <category>acslab</category>
+        <category>conversational modelling</category>
         
         
-        <category>AugmentedReality</category>
+        <category>ArtificialIntelligence</category>
         
       </item>
     
