@@ -1,4 +1,6 @@
-# Site settings title: "Akshit Arora" email: akshit.arora@colorado.edu
+# Site settings 
+title: "Akshit Arora" 
+email: akshit.arora@colorado.edu
 description: "Artificial Intelligence, Deep Learning and Photography" 
 baseurl: "" 
 url: "https://aroraakshit.github.io/" 
