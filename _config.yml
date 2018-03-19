@@ -4,7 +4,7 @@ email: akshit.arora@colorado.edu
 description: "Artificial Intelligence, Deep Learning and Photography" 
 baseurl: "" 
 url: "https://aroraakshit.github.io/" 
-title_description: "I am a graduate student at <a href=\"https://www.colorado.edu/\">University of Colorado Boulder</a>. My main research interests are in the domain of Deep Learning and Machine Perception. I want to solve problems that connect human perception and mindsets using deep learning. <br><br><a href=\"akshit_cv.pdf\">Resume</a> | <a href=\"mailto:akshit.arora@colorado.edu\">Email</a> | <a href=\"https://aroraakshit.github.io/adam-blog/\">PhotoBooks</a>" 
+title_description: "I am a graduate student at <a href=\"https://www.colorado.edu/\">University of Colorado Boulder</a>. My main research interests are in the domain of Deep Learning and Machine Perception. I want to solve problems that connect human perception and mindsets using deep learning. <br><br><a href=\"about\">About</a> | <a href=\"akshit_cv.pdf\">Resume</a> | <a href=\"projects\">Projects</a>" 
 
 title_image: "akshit.JPG" 
 google_analytics: "UA-109066326-1" 
@@ -24,6 +24,8 @@ google_plus_link:
 stackoverflow_link: 
 xing_link:
 facebook_link: 
+f500px_username: akshitarora
+flickr_username: akshitarora
 
 # Footer
 footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a> and modified by <a href=\"https://twitter.com/AkshitArora1995\">Akshit</a>"
