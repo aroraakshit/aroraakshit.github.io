@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Hi there!
-cover: false
+cover: true
 ---
 I am a data scientist at [NVIDIA](https://www.nvidia.com/) focused on deploying machine learning and deep learning systems at scale. 
 I recently graduated from University of Colorado Boulder with a Master's in Computer Science with specialization in deep learning. Prior to that, I completed my Bachelor's of Engineering from Thapar Univerity, Patiala, India. 
