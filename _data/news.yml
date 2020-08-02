@@ -1,6 +1,10 @@
-- date: 2020-07-31
+- date: 2020-08-15
   md:              |
     [Srishti Yadav](https://srishti.dev/) and I will be giving a talk on `Scalable Hyper-Parameter Tuning using RAPIDS on AWS`. Tune in at [PyBay 2020](https://pybay.com/).
+  show: true
+
+- date: 2020-08-10
+  md: I will be mentoring students on creating, finding and interviewing for the right opportunities in the software industry during COVID-19. More information [here](https://www.linkedin.com/posts/unsaidtalks_unsaidtalks-placements-computerscience-activity-6694470769444995072-3YhQ).
   show: true
 
 - date: 2020-06-15
@@ -8,7 +12,7 @@
   show: true
 
 - date: 2019-12-13
-  md: Attended NeurIPS in Vancouver, BC.
+  md: Attended [NeurIPS](https://nips.cc/Conferences/2019) in Vancouver, BC.
   show: false
 
 - date: 2019-09-03
@@ -48,7 +52,9 @@
 
 - date: 2018-07-20
   show: true
-  md: Presented `Does Deep Knowledge Tracing Model Interactions Among Skills?` at 11th International Conference on Educational Data Mining Conference in Buffalo, NY. Full paper available [here](http://www.cs.colorado.edu/~mozer/Research/Selected%20Publications/reprints/MonteroAroraetal2018.pdf). Collaborated with [Dr. Shirly Montero](https://www.linkedin.com/in/shirly-montero/), [Prof. Michael C Mozer](https://www.cs.colorado.edu/~mozer/), [Dr. Sean Kelly](https://www.linkedin.com/in/sean-kelly-2406baa/) and [Dr. Brent Milne](https://www.linkedin.com/in/rbmilne/).
+  md:              |
+    Presented `Does Deep Knowledge Tracing Model Interactions Among Skills?` at 11th International Conference on Educational Data Mining Conference in Buffalo, NY. Full paper available [here](http://www.cs.colorado.edu/~mozer/Research/Selected%20Publications/reprints/MonteroAroraetal2018.pdf). Collaborated with [Dr. Shirly Montero](https://www.linkedin.com/in/shirly-montero/), [Prof. Michael C Mozer](https://www.cs.colorado.edu/~mozer/), [Dr. Sean Kelly](https://www.linkedin.com/in/sean-kelly-2406baa/) and [Dr. Brent Milne](https://www.linkedin.com/in/rbmilne/).
+    * Travel fellowship award by University of Colorado Boulder.
 
 - date: 2018-05-01
   show: true
@@ -58,12 +64,25 @@
     * GitHub repo [here](https://github.com/Hasil-Sharma/Athena-Big-Data-Arch). 
     * Collaborated with [Hasil Sharma](https://www.linkedin.com/in/hasil-sharma/), [Paramjot Singh](https://www.linkedin.com/in/paramjotsingh/) and [Ajay Kedia](https://www.linkedin.com/in/ajay-kedia/).
 
+- date: 2018-04-01
+  show: true
+  md: Won the Outstanding Poster Award (Master's of Science category) at the Graduate Student Research Expo organized by Department of Computer Science at University of Colorado Boulder.
+
 - date: 2018-01-01
   show: true
   md:              |
     Joined [Prof. Michael Mozer](https://www.cs.colorado.edu/~mozer/)'s research group. 
     * Researched on tracing student’s knowledge state on online tutoring platforms, as an extension to [this](https://www.cs.colorado.edu/~mozer/index.php?dir=/Research/Projects/Bayesian%20optimization/) project. 
     * Trained and evaluated RNN based deep learning models using TensorFlow for deep knowledge tracing and compared them with Bayesian knowledge tracing. Collaborated with [Dr. Shirly Montero](https://www.linkedin.com/in/shirly-montero/).
+
+- date: 2017-11-01
+  show: true
+  md:              |
+    Served as Teaching Assistant for the following undergraduate courses:
+    * Fall 2017: Introduction to Computer Science
+    * Spring 2018: Introduction to Data Structures
+    * Fall 2018: Introduction to Computer Science
+    * Spring 2019: Introduction to Social Statistics
 
 - date: 2017-05-10
   md: Graduated from [Thapar University](http://thapar.edu/), Patiala, India with a Bachelor's in Computer Engineering.
@@ -78,7 +97,9 @@
 
 - date: 2016-07-02
   show: true
-  md: Presented `Interactive Landslide Simulator - A tool for Landslide Risk Assessment and Communication` at International Conference on Digital Human Modeling and Simulation in Orlando, FL. Paper available [here](https://link.springer.com/chapter/10.1007/978-3-319-41627-4_21). Collaborated with [Pratik Chaturvedi](https://scholar.google.com/citations?user=bc7YKyAAAAAJ&hl=en) and [Dr. Varun Dutt](http://faculty.iitmandi.ac.in/~varun/).
+  md:              |
+    Presented `Interactive Landslide Simulator - A tool for Landslide Risk Assessment and Communication` at International Conference on Digital Human Modeling and Simulation in Orlando, FL. Paper available [here](https://link.springer.com/chapter/10.1007/978-3-319-41627-4_21). Collaborated with [Pratik Chaturvedi](https://scholar.google.com/citations?user=bc7YKyAAAAAJ&hl=en) and [Dr. Varun Dutt](http://faculty.iitmandi.ac.in/~varun/).
+    * Travel Fellowship Award by Thapar University and Indian Institute of Technology, Mandi.
 
 - date: 2015-06-01
   show: true
@@ -88,3 +109,7 @@
     * Designed and analyzed a novel cognitive model for simulating landslides and its economic effects using Monte-Carlo simulations. 
     * Built and interactive simulation tool to be used for doing what-if analysis for policy decisions and educating people living in vulnerable zones.
     * Collaborated with [Pratik Chaturvedi](https://scholar.google.com/citations?user=bc7YKyAAAAAJ&hl=en).
+
+- date: 2014-06-01
+  show: true
+  md: Attended the [International Workshop on Machine Learning Algorithms and Data Analytics](https://gdeepak.com/iwmlda.php) organized by IEEE Computer Society, Thapar University, Patiala, India. Advisor - [Prof. Deepak Garg](https://www.gdeepak.com/).
