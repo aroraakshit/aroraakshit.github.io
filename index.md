@@ -10,7 +10,7 @@ I am interested in creative applications of machine learning/deep learning and t
 
 ## Recent News
 
-{% assign updates = site.data.news | at_most: 8  %}
+{% assign updates = site.data.news | sort: "date" | reverse  %}
 {% for update in updates limit:6 %}
     {% include components/news.html news=update %}
 {% endfor %}
