@@ -1,5 +1,10 @@
+- date: 2020-07-31
+  md:              |
+    [Srishti Yadav](https://srishti.dev/) and I will be giving a talk on `Scalable Hyper-Parameter Tuning using RAPIDS on AWS`. Tune in at [PyBay 2020](https://pybay.com/).
+  show: true
+
 - date: 2020-06-15
-  md: I gave a talk on Accelerating Machine Learning with GPUs. GitHub repo with presentation [here](https://github.com/aroraakshit/AcceleratedMLwRAPIDS).
+  md: Gave a talk on `Accelerating Machine Learning with GPUs` at [AI Camp](https://learn.xnextcon.com/event/eventdetails/W20061510). GitHub repo with presentation [here](https://github.com/aroraakshit/AcceleratedMLwRAPIDS).
   show: true
 
 - date: 2019-12-13
@@ -7,11 +12,11 @@
   show: false
 
 - date: 2019-09-03
-  md: I joined the Solutions Architect team at [NVIDIA](https://www.nvidia.com/) as a Data Scientist. I work with NVIDIA's partners to optimize and accelerate deep learning and machine learning pipelines at scale.
+  md: Joined the Solutions Architect team at [NVIDIA](https://www.nvidia.com/) as a Data Scientist. I work with NVIDIA's partners to optimize and accelerate deep learning and machine learning pipelines at scale.
   show: true
 
 - date: 2019-05-10
-  md: I graduated from [University of Colorado Boulder](https://www.colorado.edu/) with a Master's in Computer Science.
+  md: Graduated from [University of Colorado Boulder](https://www.colorado.edu/) with a Master's in Computer Science.
   show: true
 
 - date: 2019-01-01
@@ -23,12 +28,19 @@
   show: true
 
 - date: 2018-08-01
-  md: Joined [Prof. Claire Monteleoni](https://www.colorado.edu/faculty/claire-monteleoni/)'s [Machine Learning research group](https://www.colorado.edu/faculty/claire-monteleoni/research/machine-learning-group). Built a CNN based prediction model for classifying Indian Summer Monsoons using PyTorch. Collaborated with [Dr. Moumita Saha](https://www.linkedin.com/in/dr-moumita-saha-74915a74/).
   show: true
+  md:              |
+    Joined [Prof. Claire Monteleoni](https://www.colorado.edu/faculty/claire-monteleoni/)'s [Machine Learning research group](https://www.colorado.edu/faculty/claire-monteleoni/research/machine-learning-group). 
+    * Built a CNN based prediction model for classifying Indian Summer Monsoons using PyTorch. 
+    * Collaborated with [Dr. Moumita Saha](https://www.linkedin.com/in/dr-moumita-saha-74915a74/).
+  
 
 - date: 2018-05-10
   show: true
-  md: Joined [WootMath](http://wootmath.com/) as an intern. Trained a recurrent neural network (RNN) based stroke data classifier with ~70% accuracy using TensorFlow's Estimator API. Fine-tuned the model for mathematical categories using synthetic data.
+  md:              |
+    Joined [WootMath](http://wootmath.com/), Boulder, CO as an intern. 
+    * Trained a recurrent neural network (RNN) based stroke data classifier with ~70% accuracy using TensorFlow's Estimator API. 
+    * Fine-tuned the model for mathematical categories using synthetic data.
 
 - date: 2018-06-10
   show: true
@@ -38,6 +50,41 @@
   show: true
   md: Presented `Does Deep Knowledge Tracing Model Interactions Among Skills?` at 11th International Conference on Educational Data Mining Conference in Buffalo, NY. Full paper available [here](http://www.cs.colorado.edu/~mozer/Research/Selected%20Publications/reprints/MonteroAroraetal2018.pdf). Collaborated with [Dr. Shirly Montero](https://www.linkedin.com/in/shirly-montero/), [Prof. Michael C Mozer](https://www.cs.colorado.edu/~mozer/), [Dr. Sean Kelly](https://www.linkedin.com/in/sean-kelly-2406baa/) and [Dr. Brent Milne](https://www.linkedin.com/in/rbmilne/).
 
-- date: 2017-05-10
-  md: I graduated from [Thapar University](http://thapar.edu/) with a Bachelor's in Computer Engineering.
+- date: 2018-05-01
   show: true
+  md:              |
+    Built a real-time and scalable machine learning based toxicity monitoring tool. 
+    * Prototyped the model using Keras, trained the final model on Wikipedia’s detox dataset using Apache Spark, deployed on AWS Lambda to analyze tweets in real-time using Apache Storm, visualized on Kabana dashboard. 
+    * GitHub repo [here](https://github.com/Hasil-Sharma/Athena-Big-Data-Arch). 
+    * Collaborated with [Hasil Sharma](https://www.linkedin.com/in/hasil-sharma/), [Paramjot Singh](https://www.linkedin.com/in/paramjotsingh/) and [Ajay Kedia](https://www.linkedin.com/in/ajay-kedia/).
+
+- date: 2018-01-01
+  show: true
+  md:              |
+    Joined [Prof. Michael Mozer](https://www.cs.colorado.edu/~mozer/)'s research group. 
+    * Researched on tracing student’s knowledge state on online tutoring platforms, as an extension to [this](https://www.cs.colorado.edu/~mozer/index.php?dir=/Research/Projects/Bayesian%20optimization/) project. 
+    * Trained and evaluated RNN based deep learning models using TensorFlow for deep knowledge tracing and compared them with Bayesian knowledge tracing. Collaborated with [Dr. Shirly Montero](https://www.linkedin.com/in/shirly-montero/).
+
+- date: 2017-05-10
+  md: Graduated from [Thapar University](http://thapar.edu/), Patiala, India with a Bachelor's in Computer Engineering.
+  show: true
+
+- date: 2017-01-01
+  md:              |
+    Back at [Applied Cognitive Science Lab](http://www.acslab.org/). Collaborated with [Akash Rao](https://scholar.google.com/citations?user=bEF-QfoAAAAJ&hl=en).
+    * Designed first-person-shooter and search-and-rescue scenarios in augmented reality, deployed marker-less GPS based mobile application using Vuforia and Unity 3D (coded in C#). 
+    * Experimented with other libraries, including Kudan AR, AR Toolkit, Microsoft HoloLens, Google Tango. 
+  show: true
+
+- date: 2016-07-02
+  show: true
+  md: Presented `Interactive Landslide Simulator - A tool for Landslide Risk Assessment and Communication` at International Conference on Digital Human Modeling and Simulation in Orlando, FL. Paper available [here](https://link.springer.com/chapter/10.1007/978-3-319-41627-4_21). Collaborated with [Pratik Chaturvedi](https://scholar.google.com/citations?user=bc7YKyAAAAAJ&hl=en) and [Dr. Varun Dutt](http://faculty.iitmandi.ac.in/~varun/).
+
+- date: 2015-06-01
+  show: true
+  md:             |
+    Joined [Prof. Varun Dutt](http://faculty.iitmandi.ac.in/~varun/)'s [Applied Cognitive Science Lab](http://www.acslab.org/) at Indian Institute of Technology (IIT), Mandi, India. Created a [serious game](https://en.wikipedia.org/wiki/Serious_game) for education about landslides. 
+    * Studied the effect of affective feedback on awareness about landslide mitigation techniques in the Himalayan region. 
+    * Designed and analyzed a novel cognitive model for simulating landslides and its economic effects using Monte-Carlo simulations. 
+    * Built and interactive simulation tool to be used for doing what-if analysis for policy decisions and educating people living in vulnerable zones.
+    * Collaborated with [Pratik Chaturvedi](https://scholar.google.com/citations?user=bc7YKyAAAAAJ&hl=en).
