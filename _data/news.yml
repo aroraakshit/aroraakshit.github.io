@@ -7,6 +7,10 @@
   md: I will be mentoring students on creating, finding and interviewing for the right opportunities in the software industry during COVID-19. More information [here](https://www.linkedin.com/posts/unsaidtalks_unsaidtalks-placements-computerscience-activity-6694470769444995072-3YhQ).
   show: true
 
+- date: 2020-07-07
+  md: I enjoy talking to students about deep learning/machine learning. Here is a blog on one of such conversations - [[Deep Learning] Conversation with Akshit Arora, NVIDIA](https://medium.com/@himabindu13198/deep-learning-conversation-with-akshit-arora-nvidia-aee7ceb70e51).
+  show: false
+
 - date: 2020-06-15
   md: Gave a talk on `Accelerating Machine Learning with GPUs` at [AI Camp](https://learn.xnextcon.com/event/eventdetails/W20061510). GitHub repo with presentation [here](https://github.com/aroraakshit/AcceleratedMLwRAPIDS).
   show: true
