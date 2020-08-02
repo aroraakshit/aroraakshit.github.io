@@ -1,0 +1,4 @@
+{% assign update = news %}
+<ul>
+    <li>[{{ update.date | date: "%B %Y" }}] {{ update.md | markdownify | replace:'<p>','' | replace:'</p>',''}}</li>
+</ul>

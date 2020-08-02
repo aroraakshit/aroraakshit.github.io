@@ -27,11 +27,11 @@ older:                 Older
 back:                  Back
 templates:             Templates (for web app)
 
-loading:               Loading…
+loading:               Welcome to Akshit's website!
 redirecting:           Redirecting…
 
 continue_reading:      >
-  Continue reading <!--post_title-->
+  Wanna learn more? Continue reading <!--post_title-->
 
 not_found:
   title:               '404: Page Not Found'

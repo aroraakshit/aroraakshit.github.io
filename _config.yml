@@ -24,11 +24,12 @@ title:                 Akshit Arora
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Data Scientist 
+  Akshit Arora's personal website. 
 
 # A shorter description for the sidebar.
 tagline:               >
-  Data Scientist
+  Deep Learning Solutions Architect
+  NVIDIA
 
 # A list of keywords for your blog.
 keywords:              []
@@ -45,6 +46,7 @@ author:
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             >
+    Akshit Arora
 
 # Add links to the footer.
 # Typically you'll want to link to your impress, cookies or privacy policy, etc.
@@ -113,7 +115,7 @@ defaults:
 
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
-# google_analytics:      UA-XXXXXXXX-X
+google_analytics:      UA-109066326-3
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
@@ -242,8 +244,8 @@ google_site_verification: LtwzD5bZuobuzq0pSMY20_r6-1oC-xODi9tyYKUNo8c
 #   yandex:              <verification-id>
 
 # Used for Twitter cards
-# twitter:
-#   username:            <twitter handle>
+twitter:
+  username:            _AroraAkshit
 
 # Used for Facebook open graph
 # facebook:

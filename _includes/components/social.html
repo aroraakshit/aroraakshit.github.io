@@ -1,5 +1,5 @@
 <span class="sr-only">{{ site.data.strings.social | default:"Social" }}{{ site.data.strings.colon }}</span>
-<ul>
+<ul style="max-width: 15rem;">
   {% if include.author.social %}
     {% for link in include.author.social %}
       {% include components/social-list-item.html platform=link.first username=link.last %}

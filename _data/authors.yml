@@ -1,14 +1,14 @@
 # The primary author of this blog.
 # Must be the same as `author` in `_config.yml`.
 # You can change `author1` to your shortname.
-author1:
+akshit:
   name:              Akshit Arora
   email:             akshit.arora@colorado.edu
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Data Scientist at NVIDIA
+    Deep Learning Solutions Architect at NVIDIA
 
   # This photo will be used in the about section.
   picture:
@@ -18,6 +18,10 @@ author1:
   # Comment/uncomment to show/hide. Rearrange to change the order in which they appear.
   social:
     github:           aroraakshit
-    # twitter:           there_are_two_
+    twitter:           _AkshitArora
     linkedin:        aakshit
+    email:  akshit.arora@colorado.edu
+    instagram: groundctmajortom
+
+
 
