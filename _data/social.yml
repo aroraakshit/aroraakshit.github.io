@@ -16,6 +16,10 @@ google-plus:
 google-drive:
   name: Google Drive
   icon: icon-google-drive
+google-scholar:
+  name: Google Scholar
+  icon: icon-icon-google-scholar
+  prepend: 'https://scholar.google.com/citations?user='
 facebook:
   name: Facebook
   icon: icon-facebook

@@ -1,8 +1,43 @@
 - date: 2020-06-15
   md: I gave a talk on Accelerating Machine Learning with GPUs. GitHub repo with presentation [here](https://github.com/aroraakshit/AcceleratedMLwRAPIDS).
+  show: true
+
+- date: 2019-12-13
+  md: Attended NeurIPS in Vancouver, BC.
+  show: false
+
+- date: 2019-09-03
+  md: I joined the Solutions Architect team at [NVIDIA](https://www.nvidia.com/) as a Data Scientist. I work with NVIDIA's partners to optimize and accelerate deep learning and machine learning pipelines at scale.
+  show: true
 
 - date: 2019-05-10
   md: I graduated from [University of Colorado Boulder](https://www.colorado.edu/) with a Master's in Computer Science.
+  show: true
 
-- date: 2019-09-03
-  md: I joined solutions architect team at [NVIDIA](https://www.nvidia.com/) as a Data Scientist. I work with NVIDIA's partners to optimize and accelerate deep learning and machine learning pipelines in production.
+- date: 2019-01-01
+  md: Back at [WootMath](http://wootmath.com/) for another internship. Built a serverless Business Intelligence pipeline using Google Cloud Platform (BigQuery, Pub/Sub and StackDriver Logging) and Apache Beam.
+  show: true
+
+- date: 2018-11-01
+  md: Created an artificially intelligent auto-complete extension to Mozilla's VR project, [A-painter](https://blog.mozvr.com/a-painter/), using [SketchRNN](https://experiments.withgoogle.com/sketch-rnn-demo) by Google. GitHub repo [here](https://improv-tilt-brush.github.io/a-painter/).
+  show: true
+
+- date: 2018-08-01
+  md: Joined [Prof. Claire Monteleoni](https://www.colorado.edu/faculty/claire-monteleoni/)'s [Machine Learning research group](https://www.colorado.edu/faculty/claire-monteleoni/research/machine-learning-group). Built a CNN based prediction model for classifying Indian Summer Monsoons using PyTorch. Collaborated with [Dr. Moumita Saha](https://www.linkedin.com/in/dr-moumita-saha-74915a74/).
+  show: true
+
+- date: 2018-05-10
+  show: true
+  md: Joined [WootMath](http://wootmath.com/) as an intern. Trained a recurrent neural network (RNN) based stroke data classifier with ~70% accuracy using TensorFlow's Estimator API. Fine-tuned the model for mathematical categories using synthetic data.
+
+- date: 2018-06-10
+  show: true
+  md: Published `Learning in an interactive simulation tool against landslide risks - the role of strength and availability of experiential feedback` at Journal of Natural Hazards Earth System Sciences. Full paper available [here](https://nhess.copernicus.org/articles/18/1599/2018/nhess-18-1599-2018.pdf). Collaborated with [Pratik Chaturvedi](https://scholar.google.com/citations?user=bc7YKyAAAAAJ&hl=en) and [Dr. Varun Dutt](http://faculty.iitmandi.ac.in/~varun/).
+
+- date: 2018-07-20
+  show: true
+  md: Presented `Does Deep Knowledge Tracing Model Interactions Among Skills?` at 11th International Conference on Educational Data Mining Conference in Buffalo, NY. Full paper available [here](http://www.cs.colorado.edu/~mozer/Research/Selected%20Publications/reprints/MonteroAroraetal2018.pdf). Collaborated with [Dr. Shirly Montero](https://www.linkedin.com/in/shirly-montero/), [Prof. Michael C Mozer](https://www.cs.colorado.edu/~mozer/), [Dr. Sean Kelly](https://www.linkedin.com/in/sean-kelly-2406baa/) and [Dr. Brent Milne](https://www.linkedin.com/in/rbmilne/).
+
+- date: 2017-05-10
+  md: I graduated from [Thapar University](http://thapar.edu/) with a Bachelor's in Computer Engineering.
+  show: true
