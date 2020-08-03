@@ -3,6 +3,11 @@
     [Srishti Yadav](https://srishti.dev/) and I will be giving a talk on `Scalable Hyper-Parameter Tuning using RAPIDS on AWS`. Tune in at [PyBay 2020](https://pybay.com/).
   show: true
 
+- date: 2020-08-11
+  md:              |
+    [Siddha Ganju](http://sidgan.me/siddhaganju) and I will be mentoring the DisruptCNN team at [GPU Hackathon](https://www.bnl.gov/gpuhackathon2020/) 2020 (organized by Brookhaven National Laboratory).
+  show: true
+
 - date: 2020-08-10
   md: I will be mentoring students on creating, finding and interviewing for the right opportunities in the software industry during COVID-19 via UnsaidTalks platform. More information [here](https://www.linkedin.com/posts/unsaidtalks_unsaidtalks-placements-computerscience-activity-6694470769444995072-3YhQ).
   show: true
