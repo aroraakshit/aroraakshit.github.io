@@ -1,6 +1,6 @@
 - date: 2020-08-15
   md:              |
-    [Srishti Yadav](https://srishti.dev/) and I will be giving a talk on `Scalable Hyper-Parameter Tuning using RAPIDS on AWS`. Tune in at [PyBay 2020](https://pybay.com/).
+    [Srishti Yadav](https://srishti.dev/) and I gave a talk on `Scalable Hyper-Parameter Tuning using RAPIDS on AWS` at [PyBay 2020](https://pybay.com/). GitHub repo with presentation [here](https://github.com/copperwiring/scalable-hpo-pybay).
   show: true
 
 - date: 2020-08-11
