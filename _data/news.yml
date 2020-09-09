@@ -1,3 +1,8 @@
+- date: 2020-09-13
+  md:              |
+    [Deepshikha Kumari](https://www.linkedin.com/in/deepkshikha/) and I will be talking about `How to become a Data Scientist?` at [IIT Bombay](http://www.iitb.ac.in/) (placement webinars).
+  show: true
+
 - date: 2020-08-15
   md:              |
     [Srishti Yadav](https://srishti.dev/) and I gave a talk on `Scalable Hyper-Parameter Tuning using RAPIDS on AWS` at [PyBay 2020](https://pybay.com/). GitHub repo with presentation [here](https://github.com/copperwiring/scalable-hpo-pybay).
