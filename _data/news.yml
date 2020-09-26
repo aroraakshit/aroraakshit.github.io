@@ -1,6 +1,11 @@
+- date: 2020-09-25
+  md:              |
+    I published my first photo blog, `Iceland day-0`, at [aroraakshit.me](https://www.aroraakshit.me/).
+  show: false
+
 - date: 2020-09-13
   md:              |
-    [Deepshikha Kumari](https://www.linkedin.com/in/deepkshikha/) and I will be talking about `How to become a Data Scientist?` at [IIT Bombay](http://www.iitb.ac.in/) (placement webinars).
+    [Deepshikha Kumari](https://www.linkedin.com/in/deepkshikha/) and I gave a talk about `How to become a Data Scientist?` at [IIT Bombay](http://www.iitb.ac.in/) (placement webinars). Handout available [here](https://docs.google.com/document/d/1m_zJWJz3qtAyvYUrYAJwwRUZSMcAQoJyYpnTsutQ8Ww/edit?usp=sharing).
   show: true
 
 - date: 2020-08-15
@@ -10,7 +15,7 @@
 
 - date: 2020-08-11
   md:              |
-    [Siddha Ganju](http://sidgan.me/siddhaganju) and I are mentoring the DisruptCNN team at [GPU Hackathon](https://www.bnl.gov/gpuhackathon2020/) 2020 (organized by Brookhaven National Laboratory).
+    [Siddha Ganju](http://sidgan.me/siddhaganju) and I mentored the DisruptCNN team at [GPU Hackathon](https://www.bnl.gov/gpuhackathon2020/) 2020 (organized by Brookhaven National Laboratory).
   show: true
 
 - date: 2020-08-10
