@@ -98,7 +98,7 @@ deviantart:
 steam:
   name: Steam
   icon: icon-steam
-  pretend: "http://steamcommunity.com/profiles/"
+  prepend: "http://steamcommunity.com/profiles/"
 dropbox:
   name: Dropbox
   icon: icon-dropbox
@@ -109,6 +109,11 @@ github:
   name: GitHub
   icon: icon-github
   prepend: "https://github.com/"
+exposure:
+  name: Exposure
+  icon: icon-camera
+  prepend: "https://"
+  append: ".exposure.co"
 npm:
   name: npm
   icon: icon-npm
